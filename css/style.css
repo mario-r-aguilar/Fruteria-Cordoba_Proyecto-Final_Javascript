@@ -1,0 +1,20 @@
+body {
+	background-color: #259e75;
+}
+h1 {
+	text-align: center;
+	color: #a3ffe0;
+}
+.table {
+	background-color: #5bebc7;
+	border: #259e75;
+}
+.card-text {
+	display: inline-block;
+}
+.botonAgregar {
+	display: block;
+}
+.card {
+	border: #259e75;
+}

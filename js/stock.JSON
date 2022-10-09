@@ -1,0 +1,74 @@
+[
+	{
+		"id": 1,
+		"nombre": "Ananas",
+		"img": "img/ananas.jpg",
+		"precio": 300
+	},
+	{
+		"id": 2,
+		"nombre": "Bananas",
+		"img": "img/bananas.jpg",
+		"precio": 500
+	},
+	{
+		"id": 3,
+		"nombre": "Duraznos",
+		"img": "img/duraznos.jpg",
+		"precio": 400
+	},
+	{
+		"id": 4,
+		"nombre": "Limones",
+		"img": "img/limones.jpg",
+		"precio": 400
+	},
+	{
+		"id": 5,
+		"nombre": "Mandarinas",
+		"img": "img/mandarinas.jpg",
+		"precio": 300
+	},
+	{
+		"id": 6,
+		"nombre": "Manzanas",
+		"img": "img/manzanas.jpg",
+		"precio": 250
+	},
+	{
+		"id": 7,
+		"nombre": "Naranjas",
+		"img": "img/naranjas.jpg",
+		"precio": 200
+	},
+	{
+		"id": 8,
+		"nombre": "Peras",
+		"img": "img/peras.jpg",
+		"precio": 300
+	},
+	{
+		"id": 9,
+		"nombre": "Cerezas",
+		"img": "img/cerezas.jpg",
+		"precio": 800
+	},
+	{
+		"id": 10,
+		"nombre": "Frutillas",
+		"img": "img/frutillas.jpg",
+		"precio": 700
+	},
+	{
+		"id": 11,
+		"nombre": "Kiwis",
+		"img": "img/kiwis.jpg",
+		"precio": 600
+	},
+	{
+		"id": 12,
+		"nombre": "Uvas",
+		"img": "img/uvas.jpg",
+		"precio": 500
+	}
+]

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+  </head>
+		<title>
+			Frutería Córdoba - La frutería con los precios más bajos de la ciudad de
+			Córdoba
+		</title>
+	</head>
+	<body>
+<div class="container">
+    <h1>Frutería Córdoba</h1>
+    <hr>
+    <!-- Carrito -->
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Cantidad</th>
+          <th scope="col">Acción</th>
+          <th scope="col">Total</th>
+        </tr>
+      </thead>
+    
+      <tbody id="items"></tbody>
+    
+      <tfoot>
+        <tr id="totalCarrito">
+          <th scope="row" colspan="5">Aún no agrego ningún producto a su carrito</th>
+        </tr>
+      </tfoot>
+    
+    </table>
+    <hr>
+<!-- Cards de productos -->
+    <div class="row" id="products"></div>
+</div>
+
+<!-- Templates -->
+<template id="stockCard">
+    <div class="col-sm-4 col-md-3 col-lg-2 mb-3">
+      <div class="card h-100">
+        <img src="" alt="" class="card-img-top img-fluid" >
+        <div class="card-body">
+          <h5 class="card-title">Titulo</h5>
+          <span>$ </span><p class="card-text" >precio</p>
+          <button class="btn btn-dark botonAgregar">Agregar</button>
+        </div>
+      </div>
+    </div>
+  </template>  
+
+<template id="tempCarrito">
+  <tr>
+    <th scope="row">id</th>
+    <td>Café</td>
+    <td>1</td>
+    <td>
+        <button class="btn btn-info btn-sm">
+            +
+        </button>
+        <button class="btn btn-danger btn-sm">
+            -
+        </button>
+    </td>
+    <td>$ <span>500</span></td>
+  </tr>
+</template>
+
+<template id="tempTotal">
+    <th scope="row" colspan="2">Total productos</th>
+    <td>10</td>
+    <td>
+        <button class="btn btn-danger btn-sm" id="vaciarCarrito">
+            Vaciar Carrito
+        </button>
+    </td>
+    <td class="font-weight-bold">$ <span>5000</span></td>
+    <td>
+      <button class="btn btn-info btn-sm" id="comprarCarrito">
+          Comprar
+      </button>
+  </td>
+</template>
+
+<!-- JS -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+		<script src="./js/app.js"></script>
+	</body>
+</html>
